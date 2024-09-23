@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.daytodayexpenses"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:6:5-71
+12-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <permission
+15-->[androidx.core:core:1.13.1] C:\Users\DELL\.gradle\caches\transforms-4\60b03e8bf55e595ba52d0e1abb27d5b4\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.daytodayexpenses.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.13.1] C:\Users\DELL\.gradle\caches\transforms-4\60b03e8bf55e595ba52d0e1abb27d5b4\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.13.1] C:\Users\DELL\.gradle\caches\transforms-4\60b03e8bf55e595ba52d0e1abb27d5b4\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.daytodayexpenses.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.13.1] C:\Users\DELL\.gradle\caches\transforms-4\60b03e8bf55e595ba52d0e1abb27d5b4\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.13.1] C:\Users\DELL\.gradle\caches\transforms-4\60b03e8bf55e595ba52d0e1abb27d5b4\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:9:5-55:19
+22        android:allowBackup="true"
+22-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.13.1] C:\Users\DELL\.gradle\caches\transforms-4\60b03e8bf55e595ba52d0e1abb27d5b4\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:11:9-40
+32
+33        <!-- Define activities -->
+34        <activity
+34-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:19:9-23:47
+35            android:name="com.example.daytodayexpenses.VoiceRecognitionActivity"
+35-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:20:13-53
+36            android:exported="true"
+36-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:21:13-36
+37            android:label="@string/app_name"
+37-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:22:13-45
+38            android:theme="@style/AppTheme" />
+38-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:23:13-44
+39
+40        <!-- Other activities -->
+41        <activity
+41-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:26:9-35:20
+42            android:name="com.example.daytodayexpenses.LoginActivity"
+42-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:27:13-42
+43            android:exported="true"
+43-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:28:13-36
+44            android:label="@string/app_name"
+44-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:29:13-45
+45            android:theme="@style/AppTheme" >
+45-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:30:13-44
+46            <intent-filter>
+46-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:31:13-34:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:32:17-69
+47-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:32:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:33:17-77
+49-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:33:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:37:9-41:47
+53            android:name="com.example.daytodayexpenses.DashboardActivity"
+53-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:38:13-46
+54            android:exported="true"
+54-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:39:13-36
+55            android:label="@string/app_name"
+55-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:40:13-45
+56            android:theme="@style/AppTheme" />
+56-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:41:13-44
+57        <activity
+57-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:43:9-47:47
+58            android:name="com.example.daytodayexpenses.ExpenseListActivity"
+58-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:44:13-48
+59            android:exported="true"
+59-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:45:13-36
+60            android:label="@string/app_name"
+60-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:46:13-45
+61            android:theme="@style/AppTheme" />
+61-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:47:13-44
+62        <activity
+62-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:49:9-53:47
+63            android:name="com.example.daytodayexpenses.AddExpenseActivity"
+63-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:50:13-47
+64            android:exported="true"
+64-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:51:13-36
+65            android:label="@string/app_name"
+65-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:52:13-45
+66            android:theme="@style/AppTheme" />
+66-->C:\Users\DELL\AndroidStudioProjects\DayToDayExpenses\app\src\main\AndroidManifest.xml:53:13-44
+67        <activity
+67-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\DELL\.gradle\caches\transforms-4\fab59be1c452318768579462c227fa7c\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+68            android:name="androidx.compose.ui.tooling.PreviewActivity"
+68-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\DELL\.gradle\caches\transforms-4\fab59be1c452318768579462c227fa7c\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+69            android:exported="true" />
+69-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\DELL\.gradle\caches\transforms-4\fab59be1c452318768579462c227fa7c\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\transforms-4\220c538236a10028e6de2f444ba01c65\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\transforms-4\220c538236a10028e6de2f444ba01c65\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.example.daytodayexpenses.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\transforms-4\220c538236a10028e6de2f444ba01c65\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\transforms-4\220c538236a10028e6de2f444ba01c65\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\transforms-4\220c538236a10028e6de2f444ba01c65\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\transforms-4\220c538236a10028e6de2f444ba01c65\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\DELL\.gradle\caches\transforms-4\220c538236a10028e6de2f444ba01c65\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\DELL\.gradle\caches\transforms-4\80bd7adadb807feb7a2dd398e0e3ff0b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\DELL\.gradle\caches\transforms-4\80bd7adadb807feb7a2dd398e0e3ff0b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\DELL\.gradle\caches\transforms-4\80bd7adadb807feb7a2dd398e0e3ff0b\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+83                android:value="androidx.startup" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+84        </provider>
+85
+86        <activity
+86-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\DELL\.gradle\caches\transforms-4\71b9d3721dd45817d885a2a6110b5923\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+87            android:name="androidx.activity.ComponentActivity"
+87-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\DELL\.gradle\caches\transforms-4\71b9d3721dd45817d885a2a6110b5923\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+88            android:exported="true" />
+88-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\DELL\.gradle\caches\transforms-4\71b9d3721dd45817d885a2a6110b5923\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+89
+90        <receiver
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+91            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+92            android:directBootAware="false"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+93            android:enabled="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+94            android:exported="true"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+95            android:permission="android.permission.DUMP" >
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+97                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+100                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+103                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+106                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\DELL\.gradle\caches\transforms-4\01281f0ade7238829197a199b22c19da\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+107            </intent-filter>
+108        </receiver>
+109    </application>
+110
+111</manifest>
